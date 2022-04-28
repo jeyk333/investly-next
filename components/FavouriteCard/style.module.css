@@ -1,0 +1,66 @@
+.favouriteCardContainer {
+  width: 360px;
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid #eaecee;
+  margin-bottom: 24px;
+}
+
+.favouriteCardContainer img {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.favouriteDesc {
+  font-weight: 400;
+  font-size: 12px;
+  color: #4f5b67;
+  margin: 0;
+}
+
+.favouriteTitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: #242d35;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.favouritePlaceDetails {
+  display: flex;
+  align-items: center;
+  margin-top: 26px;
+  margin-bottom: 24px;
+}
+
+.favouritePlaceDetails img {
+  width: 14px;
+  height: 14px;
+  margin-bottom: 0;
+}
+
+.favouritePlaceDetailsContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.favouritePlaceDetailsContainer p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #4f5b67;
+  margin: 0;
+  margin-left: 12px;
+}
+
+.viewButton {
+  padding: 16px;
+  font-size: 14px;
+  border: 1px solid #eaecee;
+  border-radius: 36px;
+  color: #0c1116;
+  font-weight: 500;
+  width: 100%;
+  background: #fff;
+  cursor: pointer;
+}

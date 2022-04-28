@@ -1,0 +1,42 @@
+.statCard {
+  border-radius: 12px;
+  border: 1px solid #eaecee;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+  align-items: center;
+}
+
+.statCard:last-child {
+  margin-right: 0;
+}
+
+.cardContentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.cardLabel {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cardValue {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.cardChartContainer {
+  position: relative;
+  display: flex;
+  justify-content: right;
+}
+
+.chartArrow {
+  position: absolute;
+  top: 46%;
+  right: 22%;
+}
